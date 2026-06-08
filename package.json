@@ -1,0 +1,12 @@
+{
+  "name": "algorithms-and-data-structures",
+  "version": "1.0.0",
+  "description": "JavaScript Data Structures and Algorithms",
+  "license": "ISC",
+  "author": "Kseniia Shlenskaia",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
