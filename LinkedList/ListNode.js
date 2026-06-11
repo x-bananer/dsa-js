@@ -1,8 +1,8 @@
-class LinkedListNode {
+class ListNode {
     constructor(value) {
         this.value = value;
         this.next = null;
     }
 }
 
-export default LinkedListNode;
+export default ListNode;

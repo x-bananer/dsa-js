@@ -1,8 +1,8 @@
-import LinkedListNode from './LinkedListNode.js';
+import ListNode from './ListNode.js';
 
 class LinkedList {
     constructor(value) {
-        const newNode = new LinkedListNode(value);
+        const newNode = new ListNode(value);
 
         this.head = newNode;
         this.tail = newNode;
@@ -10,7 +10,7 @@ class LinkedList {
     }
 
     push(value) {
-        const newNode = new LinkedListNode(value);
+        const newNode = new ListNode(value);
 
         if (this.head) {
             this.tail.next = newNode;
@@ -51,7 +51,7 @@ class LinkedList {
     }
 
     unshift(value) {
-        const newNode = new LinkedListNode(value);
+        const newNode = new ListNode(value);
 
         if (!this.head) {
             this.head = newNode;
@@ -121,7 +121,7 @@ class LinkedList {
             return undefined;
         }
 
-        const newNode = new LinkedListNode(value);
+        const newNode = new ListNode(value);
         let temp = this.get(index - 1);
 
         newNode.next = temp.next;
