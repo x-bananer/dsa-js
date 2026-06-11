@@ -1,12 +1,14 @@
+import LinkedListNode from '../LinkedList/LinkedListNode.js';
+
 // LeetCode 86. Partition List
 // Rearrange the list so all nodes less than x come before nodes greater than or equal to x.
 // On LeetCode, ListNode is provided by the platform.
 
 var partition = function(head, x) {
-    let d1 = new ListNode(0);
+    let d1 = new LinkedListNode(0);
     let d1Ptr = d1;
 
-    let d2 = new ListNode(0);
+    let d2 = new LinkedListNode(0);
     let d2Ptr = d2;
 
     let current = head;
