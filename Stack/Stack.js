@@ -37,9 +37,4 @@ class Stack {
     }
 }
 
-const stack = new Stack(5);
-stack.push(1);
-
-console.dir(stack);
-
 export default Stack;
