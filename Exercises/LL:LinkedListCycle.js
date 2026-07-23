@@ -1,7 +1,7 @@
 // LeetCode 141. Linked List Cycle
 // Return true if the linked list has a cycle, otherwise false.
 
-var hasCycle = function(head) {
+const hasCycle = function(head) {
     let slow = head;
     let fast = head;
 
@@ -16,3 +16,5 @@ var hasCycle = function(head) {
 
     return false;
 };
+
+export default hasCycle;

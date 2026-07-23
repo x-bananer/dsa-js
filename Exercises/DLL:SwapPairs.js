@@ -35,3 +35,5 @@ const swapPairs = (head) => {
 
 	return head;
 };
+
+export default swapPairs;

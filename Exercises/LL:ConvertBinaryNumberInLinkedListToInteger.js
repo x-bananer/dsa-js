@@ -12,3 +12,5 @@ const getDecimalValue = function(head) {
 
     return num;
 };
+
+export default getDecimalValue;

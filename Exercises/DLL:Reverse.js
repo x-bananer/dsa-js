@@ -15,4 +15,6 @@ const reverse = (head, tail) => {
     tail = temp;
 
     return this;
-}
+};
+
+export default reverse;

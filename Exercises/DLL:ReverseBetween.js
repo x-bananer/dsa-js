@@ -1,6 +1,6 @@
 import ListNode from '../DoublyLinkedList/ListNode.js';
 
-var reverseBetween = function(head, startIndex, endIndex) {
+const reverseBetween = function(head, startIndex, endIndex) {
     if (head === null || startIndex === endIndex) {
         return head;
     }
@@ -40,5 +40,7 @@ var reverseBetween = function(head, startIndex, endIndex) {
 		start.next = null;
 	}
 
-	return head;
+    return head;
 };
+
+export default reverseBetween;

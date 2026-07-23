@@ -13,3 +13,5 @@ const middleNode = function(head) {
 
     return slow;
 };
+
+export default middleNode;

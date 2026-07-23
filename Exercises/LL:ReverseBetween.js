@@ -3,7 +3,7 @@ import ListNode from '../LinkedList/ListNode.js';
 // LeetCode 92. Reverse Linked List II
 // Reverse the nodes between positions left and right in-place.
 
-var reverseBetween = function(head, left, right) {
+const reverseBetween = function(head, left, right) {
     if (head === null || left === right) {
         return head;
     }
@@ -28,3 +28,5 @@ var reverseBetween = function(head, left, right) {
 
     return dummy.next;
 };
+
+export default reverseBetween;

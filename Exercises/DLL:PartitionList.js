@@ -1,6 +1,6 @@
 import ListNode from '../DoublyLinkedList/ListNode.js';
 
-var partition = (head, x) => {
+const partition = (head, x) => {
 	// If the list is empty, there's nothing to partition
 	if (!head) return;
 
@@ -53,4 +53,6 @@ var partition = (head, x) => {
 	}
 
 	return lessDummy.next;
-}
+};
+
+export default partition;

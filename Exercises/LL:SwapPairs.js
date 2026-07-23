@@ -3,7 +3,7 @@ import ListNode from '../LinkedList/ListNode.js';
 // LeetCode 24. Swap Nodes in Pairs
 // Given a linked list, swap every two adjacent nodes and return its head.
 
-var swapPairs = (head) => {
+const swapPairs = (head) => {
 	// Create a dummy node pointing to head
 	// This helps simplify edge cases like swapping the head
 	const dummy = new ListNode(0);
@@ -35,3 +35,5 @@ var swapPairs = (head) => {
 
 	return dummy.next;
 };
+
+export default swapPairs;

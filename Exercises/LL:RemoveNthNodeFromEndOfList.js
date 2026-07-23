@@ -1,7 +1,7 @@
 // LeetCode 19. Remove Nth Node From End of List
 // Remove the nth node from the end of the list and return the head.
 
-var removeNthFromEnd = function(head, n) {
+const removeNthFromEnd = function(head, n) {
     let slow = head;
     let fast = head;
     let preSlow = null;
@@ -31,3 +31,5 @@ var removeNthFromEnd = function(head, n) {
 
     return head;
 };
+
+export default removeNthFromEnd;
